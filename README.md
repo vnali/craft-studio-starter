@@ -12,7 +12,7 @@ For setup, you can run something like
 
 ```
 cd /var/www/html
-php composer.phar create-project vnali/craft-studio-starter-sample your-project-folder
+php composer.phar create-project vnali/craft-studio-starter your-project-folder
 ```
 
 In this case DocumentRoot of your project is `/var/www/html/your-project-folder/web`.

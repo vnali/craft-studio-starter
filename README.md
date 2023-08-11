@@ -30,4 +30,11 @@ This is a commercial plugin available on [Craft CMS plugin store](https://plugin
 ## The Studio plugin Installation
 The plugin can be installed via [Plugin Store](https://plugins.craftcms.com/studio?craft4) in the Craft Control Panel.
 
+## Craft CMS Starter project
 More about Craft CMS [Starter project](https://craftcms.com/knowledge-base/using-the-starter-project).
+
+## Screenshots
+
+![craft-studio-starter-podcast](https://github.com/vnali/craft-studio-starter/assets/55586085/1dd796f6-3b69-4e4b-a47c-0792d7d82cf8)
+
+![craft-studio-starter-episode](https://github.com/vnali/craft-studio-starter/assets/55586085/7b954b32-2d4d-434d-b8be-37cbcf5a886d)

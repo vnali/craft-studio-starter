@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: podcastTaxonomies
+name: 'Podcast Taxonomies'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: podcast-taxonomy/_entry
+    uriFormat: 'podcast-taxonomy/{slug}'
+structure:
+  maxLevels: null
+  uid: 12af11c7-6091-4a2c-b9d7-1875a94104cb
+type: structure

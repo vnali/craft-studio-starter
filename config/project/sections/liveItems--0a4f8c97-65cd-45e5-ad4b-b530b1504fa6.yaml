@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: liveItems
+name: 'Live Items'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: live-items/_entry
+    uriFormat: 'live-items/{slug}'
+type: channel

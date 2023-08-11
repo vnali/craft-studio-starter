@@ -1,26 +1,27 @@
 {
-  "name": "craftcms/craft",
-  "description": "Craft CMS",
+  "name": "vnali/craft-studio-starter",
+  "description": "Starter project for studio plugin for Craft CMS.",
   "keywords": [
     "craft",
     "cms",
     "craftcms",
+	"podcast",
     "project"
   ],
   "license": "0BSD",
-  "homepage": "https://craftcms.com/",
+  "homepage": "https://github.com/vnali/craft-studio-starter",
   "type": "project",
   "support": {
-    "email": "support@craftcms.com",
-    "issues": "https://github.com/craftcms/cms/issues",
-    "forum": "https://craftcms.stackexchange.com/",
-    "source": "https://github.com/craftcms/cms",
-    "docs": "https://craftcms.com/docs",
-    "rss": "https://craftcms.com/changelog.rss"
+    "email": "vnali.dev@gmail.com",
+    "issues": "https://github.com/vnali/craft-studio-starter/issues",
+    "source": "https://github.com/vnali/craft-studio-starter",
+    "docs": "https://github.com/vnali/craft-studio-starter/blob/main/README.md"
   },
   "require": {
     "craftcms/cms": "^4.4.0",
-    "vlucas/phpdotenv": "^5.4.0"
+    "vlucas/phpdotenv": "^5.4.0",
+	"vnali/craft-studio": "^0.15.0",
+	"craftcms/ckeditor": "^3.3"
   },
   "require-dev": {
     "craftcms/generator": "^1.3.0",
@@ -45,6 +46,7 @@
   "scripts": {
     "post-create-project-cmd": [
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\"",
+      "@php -r \"unlink('CHANGELOG.md');\"",
       "@php -r \"unlink('composer.json');\"",
       "@php -r \"rename('composer.json.default', 'composer.json');\"",
       "@composer dump-autoload -o",

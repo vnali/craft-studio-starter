@@ -1,0 +1,85 @@
+tabs:
+  -
+    elementCondition: null
+    elements:
+      -
+        elementCondition: null
+        fieldUid: 220e1759-47ff-4b8b-a93f-08466673270a # Person Link
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: e1b9ed77-7e86-4588-a18d-6c5f5aa7fd03
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        elementCondition: null
+        fieldUid: 3fdc58af-9dca-4f46-b2ed-ef35841da1c8 # Person Picture
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: c61b28ac-60c8-4ae4-8806-ac14412e1ae0
+        userCondition: null
+        warning: null
+        width: 100
+    name: Profile
+    uid: 2ec47742-ca6a-48a6-bf53-f812a79366b0
+    userCondition: null
+  -
+    elementCondition: null
+    elements:
+      -
+        elementCondition: null
+        fieldUid: 1432412f-9c0d-43ac-88b7-857eecc63f61 # Recipient Type
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 51d63da4-56e2-4648-8710-6f670688ff53
+        userCondition: null
+        warning: null
+        width: 50
+      -
+        elementCondition: null
+        fieldUid: 136734f5-c727-4e51-974b-356d424546c8 # Recipient Address
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 146ff8c4-4da2-4f8a-acf6-6a67ead3a06d
+        userCondition: null
+        warning: null
+        width: 50
+      -
+        elementCondition: null
+        fieldUid: 1332b520-87b6-420f-81c3-d48ea863d387 # Recipient Custom Key
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: c8cbdd8b-1a07-4d24-a0ec-8bdcc29ad846
+        userCondition: null
+        warning: null
+        width: 50
+      -
+        elementCondition: null
+        fieldUid: e03aaa4f-be84-4c30-a472-d8d0ced40b93 # Recipient Custom Value
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 9e100919-21a9-496b-975e-62047300afa4
+        userCondition: null
+        warning: null
+        width: 50
+    name: 'Recipient Information'
+    uid: a6bc9771-522b-4df9-952c-faf8b832b1e2
+    userCondition: null

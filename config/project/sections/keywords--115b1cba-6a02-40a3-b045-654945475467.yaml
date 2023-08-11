@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: keywords
+name: Keywords
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: keywords/_entry
+    uriFormat: 'keywords/{slug}'
+structure:
+  maxLevels: null
+  uid: fe01ee4c-a88a-4fb0-90a3-0c3bd66de6da
+type: structure

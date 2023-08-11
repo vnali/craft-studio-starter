@@ -1,0 +1,14 @@
+columnSuffix: tnczisdq
+contentColumnType: boolean
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: explicit
+instructions: null
+name: Explicit
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

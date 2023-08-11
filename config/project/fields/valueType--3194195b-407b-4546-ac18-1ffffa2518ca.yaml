@@ -1,0 +1,23 @@
+columnSuffix: xutslygr
+contentColumnType: string
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: valueType
+instructions: null
+name: 'Value 4 Value type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Lightning
+        -
+          - value
+          - lightning
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

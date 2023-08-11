@@ -1,0 +1,263 @@
+field: 00d61740-e612-471f-bc8e-1e4daedb60be # Live Alternate Enclosure
+fieldLayouts:
+  4c964c15-fe76-4d4f-97dc-37395ad1b3d2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e10ad14a-df74-4754-a499-ddefbf048ef3 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc943590-93e9-45ea-b6ba-9696d359d5e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 58ce6e02-4a1f-4afe-b611-c9c56a82fc26 # Type
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f4b9950-ce6c-4f3c-917c-50f6f15855ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dde88f6e-5bea-4f1b-9ef4-914d49674f23 # Bitrate
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 95823c23-a9e4-446d-9a7d-245c46438d1d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 68604891-1c15-4388-8882-7fdb3030577f # Sources
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54597375-2330-4eac-8204-96fbd5d11ae5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f19c16d-651f-4cbd-90c4-1c6949340bb1 # Default
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a95d2ce0-333b-45f1-9a8b-cb79f86ba29a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1f3ea81b-731b-4c58-9ad5-965ee564acd7
+        userCondition: null
+fields:
+  3f19c16d-651f-4cbd-90c4-1c6949340bb1: # Default
+    columnSuffix: rviiwrkl
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: enclosureDefault
+    instructions: null
+    name: Default
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  58ce6e02-4a1f-4afe-b611-c9c56a82fc26: # Type
+    columnSuffix: drshtpya
+    contentColumnType: string
+    fieldGroup: null
+    handle: enclosureType
+    instructions: null
+    name: Type
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - audio/mpeg
+            -
+              - value
+              - audio/mpeg
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - audio/opus
+            -
+              - value
+              - audio/opus
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - audio/aac
+            -
+              - value
+              - audio/aac
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  68604891-1c15-4388-8882-7fdb3030577f: # Sources
+    columnSuffix: fwrqwgny
+    contentColumnType: text
+    fieldGroup: null
+    handle: otherSources
+    instructions: null
+    name: Sources
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - uri
+                -
+                  - handle
+                  - uri
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  dde88f6e-5bea-4f1b-9ef4-914d49674f23: # Bitrate
+    columnSuffix: kobzmjno
+    contentColumnType: string
+    fieldGroup: null
+    handle: enclosureBitrate
+    instructions: null
+    name: Bitrate
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Select one'
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '32'
+            -
+              - value
+              - '32'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '64'
+            -
+              - value
+              - '64'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '128'
+            -
+              - value
+              - '128'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '320'
+            -
+              - value
+              - '320'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  e10ad14a-df74-4754-a499-ddefbf048ef3: # Title
+    columnSuffix: xjfsfdrq
+    contentColumnType: text
+    fieldGroup: null
+    handle: enclosureTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: alternateEnclosure
+name: 'Alternate Enclosure'
+sortOrder: 1

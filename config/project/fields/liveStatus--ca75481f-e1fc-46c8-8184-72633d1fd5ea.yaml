@@ -1,0 +1,45 @@
+columnSuffix: odgnidar
+contentColumnType: string
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: liveStatus
+instructions: null
+name: 'Live Status'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Pending
+        -
+          - value
+          - pending
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Live
+        -
+          - value
+          - live
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Ended
+        -
+          - value
+          - ended
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

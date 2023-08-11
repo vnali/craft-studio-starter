@@ -1,0 +1,145 @@
+columnSuffix: bsyuxlsr
+contentColumnType: text
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: socialInteract
+instructions: null
+name: 'Social Interact'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Protocol
+            -
+              - handle
+              - protocol
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - disabled
+                    -
+                      - value
+                      - disabled
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - activitypub
+                    -
+                      - value
+                      - activitypub
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - twitter
+                    -
+                      - value
+                      - twitter
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - lightning
+                    -
+                      - value
+                      - lightning
+                    -
+                      - default
+                      - false
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - URI
+            -
+              - handle
+              - uri
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Account Id '
+            -
+              - handle
+              - accountId
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Account URL'
+            -
+              - handle
+              - accountUrl
+            -
+              - width
+              - ''
+            -
+              - type
+              - url
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - Priority
+            -
+              - handle
+              - priority
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+  defaults: null
+  maxRows: null
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

@@ -1,0 +1,273 @@
+field: 3288ae42-571c-4b55-82a6-f69dfe49ac1c # Chapter
+fieldLayouts:
+  ea0c0e52-990f-466c-a7d6-b20d9047e827:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7b0b0dea-ad1b-430c-8b34-26eb35a6bc3e # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2814198-23b9-4ace-b62c-9ce02d13b203
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42131e96-8e9a-45c7-aaf9-da164e9a0410 # Start Time
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0faca27-29af-4056-8afe-909df3030138
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85cbd451-dfa3-4cee-881b-e5a83fa2cb10 # End Time
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7e7c0b9e-f6a4-4b78-a811-9cfc56ab6da2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2c991e6b-4205-4641-a046-9f9ef8393bd8 # Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d22cc5bd-3327-4c26-8487-3b88090b998b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8a9311ef-f9a0-4c8e-9130-a1f1f949742c # Location
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29549913-bbcd-41f5-af3e-e7febe8cebc6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c81df543-b448-4c37-9dab-8f99b2e46845 # toc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a47b716-095a-433a-a8c7-903c684af209
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0c4a3b7d-d219-4d79-a995-9932daffffdd
+        userCondition: null
+fields:
+  2c991e6b-4205-4641-a046-9f9ef8393bd8: # Url
+    columnSuffix: heucqbjd
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: chapterUrl
+    instructions: null
+    name: Url
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  7b0b0dea-ad1b-430c-8b34-26eb35a6bc3e: # Title
+    columnSuffix: ayaghkcz
+    contentColumnType: text
+    fieldGroup: null
+    handle: chapterTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8a9311ef-f9a0-4c8e-9130-a1f1f949742c: # Location
+    columnSuffix: rlnsrykx
+    contentColumnType: text
+    fieldGroup: null
+    handle: location
+    instructions: null
+    name: Location
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Name
+                -
+                  - handle
+                  - name
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Latitude
+                -
+                  - handle
+                  - lat
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Longitude
+                -
+                  - handle
+                  - lon
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col4
+            -
+              __assoc__:
+                -
+                  - heading
+                  - OSM
+                -
+                  - handle
+                  - osm
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+            -
+              - col3
+              - ''
+            -
+              - col4
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  85cbd451-dfa3-4cee-881b-e5a83fa2cb10: # End Time
+    columnSuffix: ujrfihnf
+    contentColumnType: text
+    fieldGroup: null
+    handle: endTime
+    instructions: null
+    name: 'End Time'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  42131e96-8e9a-45c7-aaf9-da164e9a0410: # Start Time
+    columnSuffix: mtmjttid
+    contentColumnType: text
+    fieldGroup: null
+    handle: startTime
+    instructions: null
+    name: 'Start Time'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c81df543-b448-4c37-9dab-8f99b2e46845: # toc
+    columnSuffix: axnedpxj
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: toc
+    instructions: null
+    name: toc
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: chapter
+name: Chapter
+sortOrder: 1

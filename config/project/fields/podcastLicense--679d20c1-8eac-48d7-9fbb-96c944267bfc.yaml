@@ -1,0 +1,58 @@
+columnSuffix: vedlykzz
+contentColumnType: text
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: podcastLicense
+instructions: null
+name: License
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'License Title'
+            -
+              - handle
+              - licenseTitle
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'License URL'
+            -
+              - handle
+              - licenseUrl
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: 1
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

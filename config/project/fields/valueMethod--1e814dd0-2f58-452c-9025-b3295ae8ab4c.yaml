@@ -1,0 +1,23 @@
+columnSuffix: uingyvtn
+contentColumnType: string
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: valueMethod
+instructions: null
+name: 'Method of Value 4 Value'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Keysend
+        -
+          - value
+          - keysend
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

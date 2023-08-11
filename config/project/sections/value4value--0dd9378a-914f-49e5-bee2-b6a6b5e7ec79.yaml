@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: false
+handle: value4value
+name: 'Value 4 Value'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: value-4-value/_entry
+    uriFormat: 'value-4-value/{slug}'
+type: channel

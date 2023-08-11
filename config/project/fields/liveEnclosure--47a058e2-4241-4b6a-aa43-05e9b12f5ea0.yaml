@@ -1,0 +1,94 @@
+columnSuffix: pcvpostm
+contentColumnType: text
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: liveEnclosure
+instructions: null
+name: 'Live Enclosure'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - URL
+            -
+              - handle
+              - url
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Type
+            -
+              - handle
+              - type
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - audio/mpeg
+                    -
+                      - value
+                      - audio/mpeg
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - audio/opus
+                    -
+                      - value
+                      - audio/opus
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - audio/aac
+                    -
+                      - value
+                      - audio/aac
+                    -
+                      - default
+                      - false
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - audio/mpeg
+  maxRows: 1
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

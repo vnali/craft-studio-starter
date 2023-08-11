@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: false
+handle: podcastCategories
+name: 'Podcast Categories'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: podcast-categories/_entry
+    uriFormat: 'podcast-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 9dafe702-604b-4948-9015-5da36174e5df
+type: structure

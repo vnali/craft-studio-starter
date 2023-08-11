@@ -1,0 +1,150 @@
+dateModified: 1691678455
+email:
+  fromEmail: craft-studio-starter@example.test
+  fromName: 'Craft Studio Starter'
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: '@web/images'
+  mainAsset:
+    hasUrls: true
+    name: 'Main Asset'
+    settings:
+      path: '@webroot/audio-video'
+    type: craft\fs\Local
+    url: '@web/audio-video'
+  trailer:
+    hasUrls: true
+    name: Trailer
+    settings:
+      path: '@webroot/trailer'
+    type: craft\fs\Local
+    url: '@web/trailer'
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+meta:
+  __names__:
+    0a4f8c97-65cd-45e5-ad4b-b530b1504fa6: 'Live Items' # Live Items
+    0bfdc2e5-f5e1-415d-be09-aa57a594c022: Location # Location
+    00d61740-e612-471f-bc8e-1e4daedb60be: 'Live Alternate Enclosure' # Live Alternate Enclosure
+    0d933297-d421-46d4-9930-d83f38792528: 'Value 4 Value' # Value 4 Value
+    0dd9378a-914f-49e5-bee2-b6a6b5e7ec79: 'Value 4 Value' # Value 4 Value
+    0f7b437a-417a-40f1-a8ec-fcbd88293424: 'Live Item Link' # Live Item Link
+    1e814dd0-2f58-452c-9025-b3295ae8ab4c: 'Method of Value 4 Value' # Method of Value 4 Value
+    2c991e6b-4205-4641-a046-9f9ef8393bd8: Url # Url
+    2dc96eee-e70b-4921-8a0b-6f97fee594e5: Default # Default
+    3a956e52-8d6f-4831-b1f9-91ce4e3947f8: 'Podcast Trailer' # Podcast Trailer
+    3f19c16d-651f-4cbd-90c4-1c6949340bb1: Default # Default
+    3fdc58af-9dca-4f46-b2ed-ef35841da1c8: 'Person Picture' # Person Picture
+    4a4979e1-56fb-42b2-b318-c674716b6ac8: Enclosure # Enclosure
+    4ae34e8c-9560-4c37-a23c-84bb868420e3: Split # Split
+    5b9bceab-0ffa-43e2-9b4c-b7834bbbe199: Simple # Simple
+    05ba8848-0f41-4de5-a53f-1c843fdbf263: Duration # Duration
+    5c58d992-cd1a-46fb-9362-a628c98ec3fa: 'Transcript Text' # Transcript Text
+    5dde8c25-54f5-4210-b8be-e605ddcd93db: 'Asset Sources' # Asset Sources
+    5e327d1f-cce6-4c06-9b06-bc8cbbe944f5: Title # Title
+    6a3549cb-244a-46ff-bf09-6df38a74c997: 'Live End Date' # Live End Date
+    6c47b414-a868-4721-990c-b5b2d14780eb: 'Other Persons' # Other Persons
+    7a89add2-03dd-43dd-8566-bfab689cc2cf: 'Alternate Enclosure' # Alternate Enclosure
+    7b0b0dea-ad1b-430c-8b34-26eb35a6bc3e: Title # Title
+    8a9311ef-f9a0-4c8e-9130-a1f1f949742c: Location # Location
+    8f965504-e3e9-4838-b185-ac7db7b4afd1: Season # Season
+    10a8faa8-6998-49c8-8b37-db1d64cea268: Recipient # Recipient
+    13a9cf2e-9fb9-4873-b054-40589944a9c0: 'Enclosure Rel' # Enclosure Rel
+    16c22d13-b7c1-494f-b2b3-9b6ef7281ce4: enclosureDefault # enclosureDefault
+    18d815c0-a26f-4bc5-8ade-912ba95233a4: 'Suggested Value' # Suggested Value
+    46e47596-61fa-4375-8243-48ca211a4fdc: Default # Default
+    47a058e2-4241-4b6a-aa43-05e9b12f5ea0: 'Live Enclosure' # Live Enclosure
+    50ad56e1-09a0-4cd7-b149-e58211c8167a: Person # Person
+    55e058d5-ca42-454c-bbe2-319373a08c99: Images # Images
+    057f7002-4b47-46ac-9471-c222c94583b2: Funding # Funding
+    58ce6e02-4a1f-4afe-b611-c9c56a82fc26: Type # Type
+    58db87a9-2063-4fa3-8530-7d03e2e4b0fb: Chapter # Chapter
+    68b5d696-8897-492f-828e-a2290e7ca7a5: 'Enclosure Type' # Enclosure Type
+    75ea975e-0617-43dd-ad08-ffa36d32205e: 'Publish Date' # Publish Date
+    83cc9f40-0c82-4e1c-a334-3c925112682f: Description # Description
+    85cbd451-dfa3-4cee-881b-e5a83fa2cb10: 'End Time' # End Time
+    94ef734a-326d-44bf-bd50-837d72dc7f73: Trailer # Trailer
+    115b1cba-6a02-40a3-b045-654945475467: Keywords # Keywords
+    152f4077-4674-4e60-a6f7-2398192824dd: 'Social Interact' # Social Interact
+    220e1759-47ff-4b8b-a93f-08466673270a: 'Person Link' # Person Link
+    300d751f-8e62-4527-add0-615e91d80c5f: 'Other Sources' # Other Sources
+    0347c3bc-b8ed-488d-8069-3c775f3c262a: Images # Images
+    367e200a-61a8-4f50-b3cf-a96d127c91ff: Keywords # Keywords
+    388b682f-b085-465c-9264-7233b5657300: 'Starter Sites' # Starter Sites
+    631e6bb4-059f-4224-a778-4d10920e565d: 'Other Recipients' # Other Recipients
+    0648e8b8-e96b-473c-83ff-d94101d9d9f8: Soundbite # Soundbite
+    679d20c1-8eac-48d7-9fbb-96c944267bfc: License # License
+    1332b520-87b6-420f-81c3-d48ea863d387: 'Recipient Custom Key' # Recipient Custom Key
+    2364fcc8-9f40-4c69-9958-e1675130fc89: 'Live Start Date' # Live Start Date
+    3288ae42-571c-4b55-82a6-f69dfe49ac1c: Chapter # Chapter
+    5475fb94-920a-451b-b350-f962b1c0af93: 'Podcast Format 1' # Podcast Format 1
+    5925a0d1-08a6-4bca-806f-50dbeef6a2e6: GUID # GUID
+    7482f214-925d-4db3-8407-910054af3909: Person # Person
+    8317fb12-31d4-45d7-bb46-6600611857da: 'Main Asset' # Main Asset
+    11328a2a-4790-4ab3-83ad-35b165d6baed: 'Registered users' # Registered users
+    42131e96-8e9a-45c7-aaf9-da164e9a0410: 'Start Time' # Start Time
+    61290fb0-f9fd-4170-be33-fbb08d60a985: Explicit # Explicit
+    136734f5-c727-4e51-974b-356d424546c8: 'Recipient Address' # Recipient Address
+    1432412f-9c0d-43ac-88b7-857eecc63f61: 'Recipient Type' # Recipient Type
+    3194195b-407b-4546-ac18-1ffffa2518ca: 'Value 4 Value type' # Value 4 Value type
+    04432943-c8c1-4bda-9291-86bb63d85747: 'Content Link' # Content Link
+    9144428c-cf18-431d-b6aa-dd0f25a2e2e0: 'Podcast Taxonomies' # Podcast Taxonomies
+    9742082a-d651-426b-8e05-b41e1548e954: 'Transcript Formats' # Transcript Formats
+    68604891-1c15-4388-8882-7fdb3030577f: Sources # Sources
+    68938263-0e4e-4a80-adcc-16e722227e0b: Default # Default
+    95394800-44fd-49cc-bbb4-27033deea0a5: 'Live Author' # Live Author
+    a686b37a-0fd5-49c6-a78f-946212a1488f: 'Main Asset' # Main Asset
+    a250298a-1871-4e91-96cf-3071507954ad: Default # Default
+    ac32e1ab-c183-412e-8f08-e1a340fd538d: 'Start Time' # Start Time
+    ad4bb061-92f9-4a12-a5bb-7d8f84d17e55: 'Content Encoded' # Content Encoded
+    ae1510c0-c27e-424f-baf0-2ddcb8028a58: 'Alternate Enclosure' # Alternate Enclosure
+    af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc: 'Podcast Taxonomy' # Podcast Taxonomy
+    b5d5877a-e3d6-4fd6-9182-eff3f0b24270: Default # Default
+    b152052b-ebe4-4a93-8677-93ad547e485c: 'Podcast Categories' # Podcast Categories
+    bb20251b-f8bd-489a-b8ed-67bac572cb78: 'Registered Recipients' # Registered Recipients
+    bdfe09bd-5881-4a2f-aa1e-96d55fb5ef7b: Categories # Categories
+    c5a173d0-a09a-4a3d-adee-04666b45a6ab: Soundbite # Soundbite
+    c81df543-b448-4c37-9dab-8f99b2e46845: toc # toc
+    c935f29c-7efb-4f69-991b-b479f7bcdd45: Persons # Persons
+    ca75481f-e1fc-46c8-8184-72633d1fd5ea: 'Live Status' # Live Status
+    d0367a1b-5a66-4a1d-84a3-7268344c7e3a: Default # Default
+    d68ef205-756b-4292-969f-12bd8828246a: Title # Title
+    db56f6fb-8093-4d41-bef2-1ebbbdfbc997: Recipient # Recipient
+    dde88f6e-5bea-4f1b-9ef4-914d49674f23: Bitrate # Bitrate
+    e03aaa4f-be84-4c30-a472-d8d0ced40b93: 'Recipient Custom Value' # Recipient Custom Value
+    e10ad14a-df74-4754-a499-ddefbf048ef3: Title # Title
+    e50b94b7-a4c2-4f0f-9cda-c73e5a883fba: Default # Default
+    ed2e10f8-6e42-46eb-b9fb-f0f10a110d00: Fee # Fee
+    eef5d741-f0d2-41f5-a2e7-4775a87c4004: Common # Common
+    f8e71450-2949-4d8e-95e6-7a3eba7b11c7: 'Extra data' # Extra data
+    f594fe7e-a771-4ad3-8b5a-53a9e2e9cae6: 'Podcast Live Items' # Podcast Live Items
+    fff8e979-9a9e-435a-ba4f-ba6049d5c2d7: Bitrate # Bitrate
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  studio:
+    edition: standard
+    enabled: true
+    licenseKey: 8DFMTRJ3FAL6M29FRY61V101
+    schemaVersion: 0.14.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Studio Starter'
+  retryDuration: null
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles

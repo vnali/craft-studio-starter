@@ -1,0 +1,23 @@
+columnSuffix: lplktphg
+contentColumnType: string
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: recipientType
+instructions: null
+name: 'Recipient Type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Node
+        -
+          - value
+          - node
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

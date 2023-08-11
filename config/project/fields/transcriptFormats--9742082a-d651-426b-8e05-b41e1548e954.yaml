@@ -1,0 +1,67 @@
+columnSuffix: topxccya
+contentColumnType: string
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: transcriptFormats
+instructions: null
+name: 'Transcript Formats'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - HTML
+        -
+          - value
+          - html
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - JSON
+        -
+          - value
+          - json
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - SRT
+        -
+          - value
+          - srt
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - TEXT
+        -
+          - value
+          - text
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - VTT
+        -
+          - value
+          - vtt
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\MultiSelect

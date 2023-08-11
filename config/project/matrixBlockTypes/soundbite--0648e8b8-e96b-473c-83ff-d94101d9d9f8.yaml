@@ -1,0 +1,110 @@
+field: c5a173d0-a09a-4a3d-adee-04666b45a6ab # Soundbite
+fieldLayouts:
+  09f97f49-fb80-414a-80ee-deead656faac:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5e327d1f-cce6-4c06-9b06-bc8cbbe944f5 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 935cf526-362d-469b-a0fe-aa6a79116757
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ac32e1ab-c183-412e-8f08-e1a340fd538d # Start Time
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 98fc063f-6766-4485-8e5c-7c294a16fa28
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 05ba8848-0f41-4de5-a53f-1c843fdbf263 # Duration
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d36b558b-6ebc-4e0f-9c21-b9a1c1ee82e7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8b490df7-6586-419e-8bd0-4975d7dc47d8
+        userCondition: null
+fields:
+  05ba8848-0f41-4de5-a53f-1c843fdbf263: # Duration
+    columnSuffix: rpqmokzk
+    contentColumnType: text
+    fieldGroup: null
+    handle: duration
+    instructions: null
+    name: Duration
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5e327d1f-cce6-4c06-9b06-bc8cbbe944f5: # Title
+    columnSuffix: uslppxnj
+    contentColumnType: text
+    fieldGroup: null
+    handle: soundbiteTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ac32e1ab-c183-412e-8f08-e1a340fd538d: # Start Time
+    columnSuffix: mtwcfvip
+    contentColumnType: text
+    fieldGroup: null
+    handle: startTime
+    instructions: null
+    name: 'Start Time'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: soundbite
+name: Soundbite
+sortOrder: 1

@@ -1,0 +1,43 @@
+fieldLayouts:
+  433b5866-32db-4ccc-8e81-ae1be7159e39:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 15b69396-325c-4f70-83ca-16868906813f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: db1e3c64-a981-480a-aa75-5d633df51b68
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: b152052b-ebe4-4a93-8677-93ad547e485c # Podcast Categories
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

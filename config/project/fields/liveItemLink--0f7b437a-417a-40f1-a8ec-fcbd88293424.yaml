@@ -1,0 +1,14 @@
+columnSuffix: wpbfaqik
+contentColumnType: string(255)
+fieldGroup: eef5d741-f0d2-41f5-a2e7-4775a87c4004 # Common
+handle: liveItemLink
+instructions: null
+name: 'Live Item Link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

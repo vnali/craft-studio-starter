@@ -1,7 +1,9 @@
 {
   "require": {
     "craftcms/cms": "^4.4.0",
-    "vlucas/phpdotenv": "^5.4.0"
+    "vlucas/phpdotenv": "^5.4.0",
+    "vnali/craft-studio": "^0.15.0",
+    "craftcms/ckeditor": "^3.3"
   },
   "require-dev": {
     "craftcms/generator": "^1.3.0",

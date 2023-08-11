@@ -1,0 +1,157 @@
+field: 7482f214-925d-4db3-8407-910054af3909 # Person
+fieldLayouts:
+  7c7480a0-296e-49f2-a2da-92ce49828d31:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: bb20251b-f8bd-489a-b8ed-67bac572cb78 # Registered Recipients
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77f1063f-b9ae-4509-a316-8758d04edffe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6c47b414-a868-4721-990c-b5b2d14780eb # Other Persons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6853e424-f061-4782-9bb3-a5f7fcff706d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc # Podcast Taxonomy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1744541c-0186-49c3-bd1d-6dc685345c79
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6264d596-9f6f-4df4-87e7-701d362a6ec7
+        userCondition: null
+fields:
+  6c47b414-a868-4721-990c-b5b2d14780eb: # Other Persons
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: entryPerson
+    instructions: null
+    name: 'Other Persons'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      sources:
+        - 'section:c935f29c-7efb-4f69-991b-b479f7bcdd45' # Persons
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc: # Podcast Taxonomy
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: podcastTaxonomy
+    instructions: null
+    name: 'Podcast Taxonomy'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: 1
+      localizeRelations: false
+      maintainHierarchy: true
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      sources:
+        - 'section:9144428c-cf18-431d-b6aa-dd0f25a2e2e0' # Podcast Taxonomies
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  bb20251b-f8bd-489a-b8ed-67bac572cb78: # Registered Recipients
+    columnSuffix: vailorea
+    contentColumnType: string
+    fieldGroup: null
+    handle: userPerson
+    instructions: null
+    name: 'Registered Recipients'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\User
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\users\UserCondition
+      selectionLabel: null
+      showSiteMenu: true
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Users
+handle: person
+name: Person
+sortOrder: 1

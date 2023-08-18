@@ -1,6 +1,6 @@
 # Release Notes for Studio plugin starter project
 
-## Unreleased
+## 0.2.0 - 2023-08-18
 
 - Added <podcast:podroll> fields.
 - Added <podcast:valueTimeSplit> fields.

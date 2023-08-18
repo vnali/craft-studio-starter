@@ -48,6 +48,6 @@ return [
         'episodeTxtField' => 'txt',
         'podcastValueField' => 'value4value',
         'episodeValueField' => 'value4value',
-		'podrollField' => 'podroll',
+        'podrollField' => 'podroll',
     ],
 ];

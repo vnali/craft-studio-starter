@@ -1,6 +1,6 @@
 # Release Notes for Studio plugin starter project
 
-## Unreleased
+## 0.2.1 - 2023-08-18
 
 - Fixed requiring super-table plugin
 

@@ -716,7 +716,7 @@ podcastFieldLayout:
             disabled: false
             elementCondition: null
             id: null
-            instructions: null
+            instructions: 'Leave this field blank to use the podcast system URL. '
             label: 'Podcast link'
             mandatory: false
             max: null
@@ -1009,6 +1009,18 @@ podcastFieldLayout:
       -
         elementCondition: null
         elements:
+          -
+            elementCondition: null
+            fieldUid: 79024859-f352-4cc6-bd34-6e75051bbe0e # Podcast References
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31597f0d-ac23-460d-bfc2-6ea65c225911
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: 057f7002-4b47-46ac-9471-c222c94583b2 # Funding

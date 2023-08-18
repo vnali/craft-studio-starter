@@ -1,0 +1,194 @@
+field: db56f6fb-8093-4d41-bef2-1ebbbdfbc997 # Recipient
+fieldLayouts:
+  2b566572-44ac-418b-a965-002553c8f91a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 60d65170-0254-4405-b9aa-1b3465467d2d # Start Time
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d953e39-c31a-41e7-b583-a8a425d95daf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f4e73120-d322-44ed-bea0-148faa23e6b9 # Duration
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0ed37f4-5df3-4311-8901-a4127e402772
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 20583a1f-d7a3-4327-a31b-d1e4c96b638c # Remote Percentage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d7dd2884-9d5f-42c8-ae32-3cacf95d261a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 21cd3605-e72b-49a0-991e-2035d75f5150 # Remote Start Time
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f8d3aa2-10fb-4796-8f2a-b99a3e734f35
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3b6997df-9848-453e-86a7-a0d68e2c1cd8 # Remote Item
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f8d9bbf2-5845-42d2-bfb3-a6251f7dce5d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 22d1cee6-3908-4856-9df4-30c7e878259c
+        userCondition: null
+fields:
+  3b6997df-9848-453e-86a7-a0d68e2c1cd8: # Remote Item
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: remoteItem
+    instructions: null
+    name: 'Remote Item'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      sources:
+        - 'section:c0a47490-22dd-4c4b-b435-49aab2a77787' # Remote Items
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  21cd3605-e72b-49a0-991e-2035d75f5150: # Remote Start Time
+    columnSuffix: wcndznfz
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: remoteStartTime
+    instructions: null
+    name: 'Remote Start Time'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  60d65170-0254-4405-b9aa-1b3465467d2d: # Start Time
+    columnSuffix: mjoyesxx
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: startTime
+    instructions: null
+    name: 'Start Time'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  20583a1f-d7a3-4327-a31b-d1e4c96b638c: # Remote Percentage
+    columnSuffix: nqxdawho
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: remotePercentage
+    instructions: null
+    name: 'Remote Percentage'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  f4e73120-d322-44ed-bea0-148faa23e6b9: # Duration
+    columnSuffix: qofdgfai
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: duration
+    instructions: null
+    name: Duration
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+handle: remoteItemTimeSplit
+name: 'Remote Item (Time Split)'
+sortOrder: 3

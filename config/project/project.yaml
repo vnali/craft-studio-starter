@@ -1,4 +1,4 @@
-dateModified: 1691678455
+dateModified: 1692369172
 email:
   fromEmail: craft-studio-starter@example.test
   fromName: 'Craft Studio Starter'
@@ -37,33 +37,48 @@ meta:
   __names__:
     0a4f8c97-65cd-45e5-ad4b-b530b1504fa6: 'Live Items' # Live Items
     0bfdc2e5-f5e1-415d-be09-aa57a594c022: Location # Location
+    0cd5fd98-4e7c-4cf4-9209-6e90766d9f7c: Users # Users
     00d61740-e612-471f-bc8e-1e4daedb60be: 'Live Alternate Enclosure' # Live Alternate Enclosure
     0d933297-d421-46d4-9930-d83f38792528: 'Value 4 Value' # Value 4 Value
     0dd9378a-914f-49e5-bee2-b6a6b5e7ec79: 'Value 4 Value' # Value 4 Value
     0f7b437a-417a-40f1-a8ec-fcbd88293424: 'Live Item Link' # Live Item Link
     1e814dd0-2f58-452c-9025-b3295ae8ab4c: 'Method of Value 4 Value' # Method of Value 4 Value
+    2c27ff37-4734-4cfb-aeae-e572eec3992a: Default # Default
     2c991e6b-4205-4641-a046-9f9ef8393bd8: Url # Url
     2dc96eee-e70b-4921-8a0b-6f97fee594e5: Default # Default
     3a956e52-8d6f-4831-b1f9-91ce4e3947f8: 'Podcast Trailer' # Podcast Trailer
+    03ac74e5-a3e7-4c60-9956-3ba1b80dd959: Split # Split
+    3b6997df-9848-453e-86a7-a0d68e2c1cd8: 'Remote Item' # Remote Item
+    3dd38ac1-b8de-4d15-8f17-4a6eefaf2364: 'Other Persons' # Other Persons
     3f19c16d-651f-4cbd-90c4-1c6949340bb1: Default # Default
     3fdc58af-9dca-4f46-b2ed-ef35841da1c8: 'Person Picture' # Person Picture
     4a4979e1-56fb-42b2-b318-c674716b6ac8: Enclosure # Enclosure
     4ae34e8c-9560-4c37-a23c-84bb868420e3: Split # Split
+    4f37e438-2133-4df1-b58f-6df1741fd63f: 'Recipient (Time Split)' # Recipient (Time Split)
     5b9bceab-0ffa-43e2-9b4c-b7834bbbe199: Simple # Simple
     05ba8848-0f41-4de5-a53f-1c843fdbf263: Duration # Duration
     5c58d992-cd1a-46fb-9362-a628c98ec3fa: 'Transcript Text' # Transcript Text
     5dde8c25-54f5-4210-b8be-e605ddcd93db: 'Asset Sources' # Asset Sources
     5e327d1f-cce6-4c06-9b06-bc8cbbe944f5: Title # Title
+    5f8321af-d2ae-4aeb-933b-82d201e9b4af: 'Item Guid' # Item Guid
     6a3549cb-244a-46ff-bf09-6df38a74c997: 'Live End Date' # Live End Date
     6c47b414-a868-4721-990c-b5b2d14780eb: 'Other Persons' # Other Persons
+    6ea168eb-2cb8-4cd2-b574-dcf8a0b807b3: Fee # Fee
     7a89add2-03dd-43dd-8566-bfab689cc2cf: 'Alternate Enclosure' # Alternate Enclosure
     7b0b0dea-ad1b-430c-8b34-26eb35a6bc3e: Title # Title
+    7baf848c-4182-4d67-8b11-d030976a3ead: Split # Split
     8a9311ef-f9a0-4c8e-9130-a1f1f949742c: Location # Location
+    8eb2c853-eb79-4f36-9236-1b21c9b03134: Split # Split
     8f965504-e3e9-4838-b185-ac7db7b4afd1: Season # Season
+    9b4369e5-a408-4411-aa01-c842a630b9c5: 'Feed Guid' # Feed Guid
+    9d8a9d4b-c7c4-44fa-a9e2-a004907548ce: Users # Users
+    9dd3f69f-ccd0-431c-b8b0-99ce19f8f830: 'Remote Item' # Remote Item
     10a8faa8-6998-49c8-8b37-db1d64cea268: Recipient # Recipient
     13a9cf2e-9fb9-4873-b054-40589944a9c0: 'Enclosure Rel' # Enclosure Rel
     16c22d13-b7c1-494f-b2b3-9b6ef7281ce4: enclosureDefault # enclosureDefault
     18d815c0-a26f-4bc5-8ade-912ba95233a4: 'Suggested Value' # Suggested Value
+    21cd3605-e72b-49a0-991e-2035d75f5150: 'Remote Start Time' # Remote Start Time
+    33e66496-aebb-4d0e-9727-5925f354cea3: Recipient # Recipient
     46e47596-61fa-4375-8243-48ca211a4fdc: Default # Default
     47a058e2-4241-4b6a-aa43-05e9b12f5ea0: 'Live Enclosure' # Live Enclosure
     50ad56e1-09a0-4cd7-b149-e58211c8167a: Person # Person
@@ -71,10 +86,14 @@ meta:
     057f7002-4b47-46ac-9471-c222c94583b2: Funding # Funding
     58ce6e02-4a1f-4afe-b611-c9c56a82fc26: Type # Type
     58db87a9-2063-4fa3-8530-7d03e2e4b0fb: Chapter # Chapter
+    60d65170-0254-4405-b9aa-1b3465467d2d: 'Start Time' # Start Time
+    61fc3565-5ae1-431f-9394-7b043a1733e8: Duration # Duration
     68b5d696-8897-492f-828e-a2290e7ca7a5: 'Enclosure Type' # Enclosure Type
+    68bedd35-2c4e-481f-bbf3-89051641327c: 'Other Persons' # Other Persons
     75ea975e-0617-43dd-ad08-ffa36d32205e: 'Publish Date' # Publish Date
     83cc9f40-0c82-4e1c-a334-3c925112682f: Description # Description
     85cbd451-dfa3-4cee-881b-e5a83fa2cb10: 'End Time' # End Time
+    89d3da74-aa15-436e-95ff-7a5ef45464c8: Users # Users
     94ef734a-326d-44bf-bd50-837d72dc7f73: Trailer # Trailer
     115b1cba-6a02-40a3-b045-654945475467: Keywords # Keywords
     152f4077-4674-4e60-a6f7-2398192824dd: 'Social Interact' # Social Interact
@@ -83,39 +102,54 @@ meta:
     0347c3bc-b8ed-488d-8069-3c775f3c262a: Images # Images
     367e200a-61a8-4f50-b3cf-a96d127c91ff: Keywords # Keywords
     388b682f-b085-465c-9264-7233b5657300: 'Starter Sites' # Starter Sites
+    517a8c0c-fce5-4dd3-bccd-fe3aaa54abde: 'Remote Start Time' # Remote Start Time
     631e6bb4-059f-4224-a778-4d10920e565d: 'Other Recipients' # Other Recipients
     0648e8b8-e96b-473c-83ff-d94101d9d9f8: Soundbite # Soundbite
     679d20c1-8eac-48d7-9fbb-96c944267bfc: License # License
+    932dd1f5-0d4b-4a9b-966f-516892650eeb: 'Start Time' # Start Time
     1332b520-87b6-420f-81c3-d48ea863d387: 'Recipient Custom Key' # Recipient Custom Key
     2364fcc8-9f40-4c69-9958-e1675130fc89: 'Live Start Date' # Live Start Date
     3288ae42-571c-4b55-82a6-f69dfe49ac1c: Chapter # Chapter
     5475fb94-920a-451b-b350-f962b1c0af93: 'Podcast Format 1' # Podcast Format 1
     5925a0d1-08a6-4bca-806f-50dbeef6a2e6: GUID # GUID
     7482f214-925d-4db3-8407-910054af3909: Person # Person
+    7710fe88-2917-45c9-a6c3-52cb501751c4: Recipient # Recipient
     8317fb12-31d4-45d7-bb46-6600611857da: 'Main Asset' # Main Asset
-    11328a2a-4790-4ab3-83ad-35b165d6baed: 'Registered users' # Registered users
+    11328a2a-4790-4ab3-83ad-35b165d6baed: Users # Users
+    20583a1f-d7a3-4327-a31b-d1e4c96b638c: 'Remote Percentage' # Remote Percentage
     42131e96-8e9a-45c7-aaf9-da164e9a0410: 'Start Time' # Start Time
+    45309bce-c074-4b82-a2ab-af27678c9a43: 'Remote Item' # Remote Item
+    55274cf3-bcd0-49e3-a776-77478070fcb5: Recipient # Recipient
     61290fb0-f9fd-4170-be33-fbb08d60a985: Explicit # Explicit
     136734f5-c727-4e51-974b-356d424546c8: 'Recipient Address' # Recipient Address
+    748248e8-64ba-4280-8a35-dd23340e2605: 'Remote Percentage' # Remote Percentage
     1432412f-9c0d-43ac-88b7-857eecc63f61: 'Recipient Type' # Recipient Type
     3194195b-407b-4546-ac18-1ffffa2518ca: 'Value 4 Value type' # Value 4 Value type
     04432943-c8c1-4bda-9291-86bb63d85747: 'Content Link' # Content Link
     9144428c-cf18-431d-b6aa-dd0f25a2e2e0: 'Podcast Taxonomies' # Podcast Taxonomies
     9742082a-d651-426b-8e05-b41e1548e954: 'Transcript Formats' # Transcript Formats
+    63394233-4f95-4558-ac66-4ab95a91c1d5: Fee # Fee
     68604891-1c15-4388-8882-7fdb3030577f: Sources # Sources
     68938263-0e4e-4a80-adcc-16e722227e0b: Default # Default
+    79024859-f352-4cc6-bd34-6e75051bbe0e: 'Podcast References' # Podcast References
     95394800-44fd-49cc-bbb4-27033deea0a5: 'Live Author' # Live Author
+    a97c03ae-5ee7-48f6-813d-886a825b1e6a: 'Remote Percentage' # Remote Percentage
     a686b37a-0fd5-49c6-a78f-946212a1488f: 'Main Asset' # Main Asset
     a250298a-1871-4e91-96cf-3071507954ad: Default # Default
+    ab0ec966-4721-4ce3-a641-c7d45d3352fe: 'Other Persons' # Other Persons
     ac32e1ab-c183-412e-8f08-e1a340fd538d: 'Start Time' # Start Time
     ad4bb061-92f9-4a12-a5bb-7d8f84d17e55: 'Content Encoded' # Content Encoded
     ae1510c0-c27e-424f-baf0-2ddcb8028a58: 'Alternate Enclosure' # Alternate Enclosure
     af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc: 'Podcast Taxonomy' # Podcast Taxonomy
+    af376680-6dab-4260-8d78-6a0cd4a714df: 'Remote Start Time' # Remote Start Time
     b5d5877a-e3d6-4fd6-9182-eff3f0b24270: Default # Default
+    b6b40ee0-f168-4434-8d4e-fa00eb39787d: Medium # Medium
     b152052b-ebe4-4a93-8677-93ad547e485c: 'Podcast Categories' # Podcast Categories
     bb20251b-f8bd-489a-b8ed-67bac572cb78: 'Registered Recipients' # Registered Recipients
     bdfe09bd-5881-4a2f-aa1e-96d55fb5ef7b: Categories # Categories
+    c0a47490-22dd-4c4b-b435-49aab2a77787: 'Remote Items' # Remote Items
     c5a173d0-a09a-4a3d-adee-04666b45a6ab: Soundbite # Soundbite
+    c7d41bbe-182b-476e-84ef-dde188c89c09: 'Feed URL' # Feed URL
     c81df543-b448-4c37-9dab-8f99b2e46845: toc # toc
     c935f29c-7efb-4f69-991b-b479f7bcdd45: Persons # Persons
     ca75481f-e1fc-46c8-8184-72633d1fd5ea: 'Live Status' # Live Status
@@ -124,11 +158,14 @@ meta:
     db56f6fb-8093-4d41-bef2-1ebbbdfbc997: Recipient # Recipient
     dde88f6e-5bea-4f1b-9ef4-914d49674f23: Bitrate # Bitrate
     e03aaa4f-be84-4c30-a472-d8d0ced40b93: 'Recipient Custom Value' # Recipient Custom Value
+    e4b91f0e-a89c-46dd-9670-de79c7797c32: Fee # Fee
     e10ad14a-df74-4754-a499-ddefbf048ef3: Title # Title
     e50b94b7-a4c2-4f0f-9cda-c73e5a883fba: Default # Default
     ed2e10f8-6e42-46eb-b9fb-f0f10a110d00: Fee # Fee
     eef5d741-f0d2-41f5-a2e7-4775a87c4004: Common # Common
+    f4e73120-d322-44ed-bea0-148faa23e6b9: Duration # Duration
     f8e71450-2949-4d8e-95e6-7a3eba7b11c7: 'Extra data' # Extra data
+    f56c7cb6-6639-42ca-956d-b16e49091490: 'Remote Item (Time Split)' # Remote Item (Time Split)
     f594fe7e-a771-4ad3-8b5a-53a9e2e9cae6: 'Podcast Live Items' # Podcast Live Items
     fff8e979-9a9e-435a-ba4f-ba6049d5c2d7: Bitrate # Bitrate
 plugins:
@@ -141,6 +178,10 @@ plugins:
     enabled: true
     licenseKey: 8DFMTRJ3FAL6M29FRY61V101
     schemaVersion: 0.14.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
 system:
   edition: solo
   live: true

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: remoteItems
+name: 'Remote Items'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: remote-items/_entry
+    uriFormat: 'remote-items/{slug}'
+type: channel

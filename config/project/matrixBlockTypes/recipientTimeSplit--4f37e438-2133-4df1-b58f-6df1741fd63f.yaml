@@ -1,0 +1,144 @@
+field: db56f6fb-8093-4d41-bef2-1ebbbdfbc997 # Recipient
+fieldLayouts:
+  4e387cac-a616-4c09-9cfa-b6ba8b9e7ec9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 932dd1f5-0d4b-4a9b-966f-516892650eeb # Start Time
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fbf3360b-2b39-47af-8a72-622b3d4d8e04
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 61fc3565-5ae1-431f-9394-7b043a1733e8 # Duration
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 436b975f-0bb8-4329-8469-5ae566591432
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 55274cf3-bcd0-49e3-a776-77478070fcb5 # Recipient
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55b15e7f-505b-4e09-8eb4-2b56ae919125
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fe37f0c4-6ac6-4e73-971a-de7c24ad5a1e
+        userCondition: null
+fields:
+  61fc3565-5ae1-431f-9394-7b043a1733e8: # Duration
+    columnSuffix: qyhzafdm
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: duration
+    instructions: null
+    name: Duration
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  932dd1f5-0d4b-4a9b-966f-516892650eeb: # Start Time
+    columnSuffix: ixzekmig
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: startTime
+    instructions: null
+    name: 'Start Time'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  55274cf3-bcd0-49e3-a776-77478070fcb5: # Recipient
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: recipient
+    instructions: null
+    name: Recipient
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1176699506
+      columns:
+        __assoc__:
+          -
+            - 0cd5fd98-4e7c-4cf4-9209-6e90766d9f7c # Users
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - ab0ec966-4721-4ce3-a641-c7d45d3352fe # Other Persons
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 8eb2c853-eb79-4f36-9236-1b21c9b03134 # Split
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - e4b91f0e-a89c-46dd-9670-de79c7797c32 # Fee
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_8_recipient}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+handle: recipientTimeSplit
+name: 'Recipient (Time Split)'
+sortOrder: 2

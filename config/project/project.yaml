@@ -1,4 +1,4 @@
-dateModified: 1692369172
+dateModified: 1714240926
 email:
   fromEmail: craft-studio-starter@example.test
   fromName: 'Craft Studio Starter'
@@ -29,10 +29,6 @@ fs:
       path: '@webroot/trailer'
     type: craft\fs\Local
     url: '@web/trailer'
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 meta:
   __names__:
     0a4f8c97-65cd-45e5-ad4b-b530b1504fa6: 'Live Items' # Live Items
@@ -79,6 +75,7 @@ meta:
     18d815c0-a26f-4bc5-8ade-912ba95233a4: 'Suggested Value' # Suggested Value
     21cd3605-e72b-49a0-991e-2035d75f5150: 'Remote Start Time' # Remote Start Time
     33e66496-aebb-4d0e-9727-5925f354cea3: Recipient # Recipient
+    34a8721e-35fc-4ece-a65f-6139f15cdc0d: 'Public Schema' # Public Schema
     46e47596-61fa-4375-8243-48ca211a4fdc: Default # Default
     47a058e2-4241-4b6a-aa43-05e9b12f5ea0: 'Live Enclosure' # Live Enclosure
     50ad56e1-09a0-4cd7-b149-e58211c8167a: Person # Person
@@ -187,5 +184,5 @@ system:
   live: true
   name: 'Craft Studio Starter'
   retryDuration: null
-  schemaVersion: 4.4.0.4
+  schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles

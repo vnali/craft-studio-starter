@@ -1,5 +1,10 @@
 # Release Notes for Studio plugin starter project
 
+## 2024-05-04
+
+- Update readme
+- Update required package versions
+
 ## 2024-04-28
 
 - Update for Craft CMS 4.8.10

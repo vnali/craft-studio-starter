@@ -11,8 +11,9 @@ After setup is finished, you have a starter project with Craft CMS and studio pl
 For setup, you can run something like
 
 ```
+Craft 4:
 cd /var/www/html
-php composer.phar create-project vnali/craft-studio-starter your-project-folder
+php composer.phar create-project vnali/craft-studio-starter:4.x-dev your-project-folder
 ```
 
 In this case DocumentRoot of your project is `/var/www/html/your-project-folder/web`.

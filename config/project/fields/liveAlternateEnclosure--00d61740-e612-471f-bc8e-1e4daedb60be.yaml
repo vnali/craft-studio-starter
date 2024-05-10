@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: liveAlternateEnclosure
+instructions: null
+name: 'Live Alternate Enclosure'
+searchable: false
+settings:
+  createButtonLabel: 'New live alternate enclosure'
+  entryTypes:
+    - 7a89add2-03dd-43dd-8566-bfab689cc2cf # Live Alternate Enclosure
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

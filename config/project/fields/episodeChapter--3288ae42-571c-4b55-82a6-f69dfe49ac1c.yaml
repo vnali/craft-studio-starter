@@ -1,0 +1,17 @@
+columnSuffix: null
+contentColumnType: string
+handle: episodeChapter
+instructions: null
+name: Chapter
+searchable: false
+settings:
+  entryTypes:
+    - 58db87a9-2063-4fa3-8530-7d03e2e4b0fb # Chapter
+  maxEntries: null
+  minEntries: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

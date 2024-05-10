@@ -1,0 +1,17 @@
+columnSuffix: null
+contentColumnType: string
+handle: soundbite
+instructions: null
+name: Soundbite
+searchable: false
+settings:
+  entryTypes:
+    - 0648e8b8-e96b-473c-83ff-d94101d9d9f8 # Soundbite
+  maxEntries: null
+  minEntries: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

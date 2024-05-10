@@ -1,0 +1,22 @@
+columnSuffix: uingyvtn
+contentColumnType: string
+handle: valueMethod
+instructions: null
+name: 'Method of Value 4 Value'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Keysend
+        -
+          - value
+          - keysend
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,1209 @@
+episodeAttributes: '{"duration":{"translatable":""},"episodeBlock":{"translatable":""},"episodeExplicit":{"translatable":""},"publishOnRSS":{"translatable":""},"episodeSeason":{"translatable":""},"seasonName":{"translatable":""},"episodeNumber":{"translatable":""},"episodeType":{"translatable":""},"episodeGUID":{"translatable":""}}'
+episodeFieldLayout:
+  66f39c27-5bf4-428d-b12b-898c71338750:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: ce9c6cb3-959d-483b-b427-f0c6ac23315e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8317fb12-31d4-45d7-bb46-6600611857da # Main Asset
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f04c3c85-99fe-4c1a-be20-7dd6cc0ba57e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 55e058d5-ca42-454c-bbe2-319373a08c99 # Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 16ed34bd-3b41-497e-9029-5483c17af146
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: duration
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: 'in HH:MM:SS format or enter in seconds'
+            label: Duration
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: vnali\studio\fields\DurationField
+            uid: 535ac1be-1cdf-4920-a419-d1a9a60b3e5f
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 75ea975e-0617-43dd-ad08-ffa36d32205e # Publish Date
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a71f0d7e-7325-497a-bcc7-bbdd60d4803e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: episodeNumber
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Episode Number'
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: vnali\studio\fields\NumberField
+            uid: 380acb2a-9281-4bbe-bc98-1193c0006246
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: publishOnRSS
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Publish on RSS'
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: fbe0d00c-c06c-47e8-a793-4dc40b54ecd7
+            userCondition: null
+            value: null
+            warning: null
+            width: 50
+          -
+            attribute: episodeSeason
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Episode Season'
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: vnali\studio\fields\NumberField
+            uid: 47f594eb-557e-44fb-81c8-d5ece7f46a65
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: seasonName
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Season Name'
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: craft\fieldlayoutelements\TextField
+            uid: 489364f9-295f-4bdc-aafb-5baea89bb7d5
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: episodeExplicit
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Episode Explicit'
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: a4b72ba6-e95a-478b-b0f9-94783378d11b
+            userCondition: null
+            value: null
+            warning: null
+            width: 50
+          -
+            attribute: episodeBlock
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Episode Block'
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: 281728d3-5930-4125-beb1-ec096e20a032
+            userCondition: null
+            value: null
+            warning: null
+            width: 50
+          -
+            attribute: episodeGUID
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: GUID
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: vnali\studio\fields\GUIDField
+            uid: f97a4d38-556c-4af1-a147-7477b2d1662c
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: episodeType
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Episode Type'
+            mandatory: false
+            options:
+              -
+                label: full
+                value: full
+              -
+                label: trailer
+                value: trailer
+              -
+                label: bonus
+                value: bonus
+            orientation: null
+            providesThumbs: false
+            requirable: true
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\EpisodeTypeField
+            uid: a1d8356d-f770-4307-969d-f231757cb6b0
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 83cc9f40-0c82-4e1c-a334-3c925112682f # Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41ac6332-c796-499f-a42e-ea1647de710c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ad4bb061-92f9-4a12-a5bb-7d8f84d17e55 # Content Encoded
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8094acfc-ebdf-4c25-8ced-292b2e25d97c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 367e200a-61a8-4f50-b3cf-a96d127c91ff # Keywords
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32bbec56-e22d-4360-b5a1-7046491838d5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6ae7aa59-a55f-4cd5-9694-79735b11b7e4
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ae1510c0-c27e-424f-baf0-2ddcb8028a58 # Alternate Enclosure
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e12f8c1-161a-4dac-8d56-c282d1f85bf4
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Other Files'
+        uid: 6c79c001-c5be-467d-91e0-1c08ebe9e9dd
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5c58d992-cd1a-46fb-9362-a628c98ec3fa # Transcript Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d37c84f7-b162-4b66-bbf8-96e8544be492
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9742082a-d651-426b-8e05-b41e1548e954 # Transcript Formats
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 44fe0450-28a7-4edc-b954-2f78fed1480b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Transcript
+        uid: 146b89f0-c2f3-4777-aa26-8706506af253
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3288ae42-571c-4b55-82a6-f69dfe49ac1c # Chapter
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1c8f5d7c-3466-4e5c-8244-1a68bc2fae18
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c5a173d0-a09a-4a3d-adee-04666b45a6ab # Soundbite
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 434e4083-b2f5-4539-a9dd-1f907c083fce
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Chapter & Soundbite'
+        uid: cc546d43-3498-4dc8-946b-40a2e109e69e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0d933297-d421-46d4-9930-d83f38792528 # Value 4 Value
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36598117-df0d-4eb6-97e4-860a585fc00d
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Value 4 Value'
+        uid: f5966c46-9a92-474b-8bc6-8ddd359afa2c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7482f214-925d-4db3-8407-910054af3909 # Person
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c50a9705-129b-4d2c-891d-3bd012a05ca0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Person
+        uid: 712148c3-f065-4577-9b0d-7361d3b1bb7b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 152f4077-4674-4e60-a6f7-2398192824dd # Social Interact
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e880b648-abe8-498f-a19a-674821669a89
+            userCondition: null
+            warning: null
+            width: 100
+        name: Extra
+        uid: e5106eed-a4a6-4acb-92cc-7f693faf2b7b
+        userCondition: null
+episodeMapping: '{"mainAsset":{"type":"craft\\fields\\Assets","container":"","field":"8317fb12-31d4-45d7-bb46-6600611857da"},"episodeImage":{"type":"craft\\fields\\Assets","container":"","field":"55e058d5-ca42-454c-bbe2-319373a08c99"},"episodeSubtitle":{"type":"","container":"","field":""},"episodeSummary":{"type":"craft\\ckeditor\\Field","container":"","field":"83cc9f40-0c82-4e1c-a334-3c925112682f"},"episodeDescription":{"type":"craft\\ckeditor\\Field","container":"","field":"83cc9f40-0c82-4e1c-a334-3c925112682f"},"episodeContentEncoded":{"type":"craft\\ckeditor\\Field","container":"","field":"ad4bb061-92f9-4a12-a5bb-7d8f84d17e55"},"episodePubDate":{"type":"craft\\fields\\Date","container":"","field":"75ea975e-0617-43dd-ad08-ffa36d32205e"},"episodeGenre":{"type":"","container":"","field":""},"episodeKeywords":{"type":"craft\\fields\\Entries","container":"","field":"367e200a-61a8-4f50-b3cf-a96d127c91ff"}}' # Images # Publish Date # Description # Keywords # Main Asset # Content Encoded
+episodeVersioning: false
+handle: podcastFormat1
+name: 'Podcast Format 1'
+podcastAttributes: '{"ownerName":{"translatable":""},"ownerEmail":{"translatable":""},"authorName":{"translatable":""},"podcastBlock":{"translatable":""},"locked":{"translatable":""},"podcastLink":{"translatable":""},"podcastComplete":{"translatable":""},"podcastExplicit":{"translatable":""},"podcastType":{"translatable":""},"copyright":{"translatable":""},"medium":{"translatable":""},"podcastRedirectTo":{"translatable":""},"podcastIsNewFeedUrl":{"translatable":""},"podcastGUID":{"translatable":""}}'
+podcastFieldLayout:
+  809ca952-49ba-4d67-8c22-a6b6607fdb33:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 7d8a952b-ee6a-436b-a719-41e01ad0678c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 55e058d5-ca42-454c-bbe2-319373a08c99 # Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3624665d-9575-496f-a926-0afe07e84949
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 83cc9f40-0c82-4e1c-a334-3c925112682f # Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4213a843-7926-4d8e-b868-60a6e0d1ec5f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: podcastGUID
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: GUID
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: vnali\studio\fields\GUIDField
+            uid: 36afed66-5d6d-4179-8b96-dbe1b4962cea
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: ownerName
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Owner name'
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: craft\fieldlayoutelements\TextField
+            uid: a7dc0b29-496c-45a1-9eee-df03121e4cf2
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: ownerEmail
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Owner email'
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: craft\fieldlayoutelements\TextField
+            uid: 8cee5174-f8a7-443a-bdb7-2c1f8672a84d
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: authorName
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Author name'
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: craft\fieldlayoutelements\TextField
+            uid: 667fabbb-ce02-45c7-b2c1-09d3c1ff9c4a
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: copyright
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Copyright
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: craft\fieldlayoutelements\TextField
+            uid: 35894e2b-5849-45a3-80ed-07a6a5cf71ad
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: podcastLink
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: 'Leave this field blank to use the podcast system URL. '
+            label: 'Podcast link'
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: craft\fieldlayoutelements\TextField
+            uid: 89ea063f-c175-4646-a6c3-918b9c6916c5
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: podcastBlock
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: Blocked
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: 379cfbd3-46f0-47b9-a8f8-7dd3a09380a7
+            userCondition: null
+            value: null
+            warning: null
+            width: 25
+          -
+            attribute: locked
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: Locked
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: 732d761d-19a2-4a30-97fa-c426eb4c62da
+            userCondition: null
+            value: null
+            warning: null
+            width: 25
+          -
+            attribute: podcastExplicit
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: Explicit
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: 9b478ad3-10c4-464b-afb8-b1d718ba48ef
+            userCondition: null
+            value: null
+            warning: null
+            width: 25
+          -
+            attribute: podcastIsNewFeedUrl
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Is New Feed?'
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: 91c591c2-ce57-45cd-8ce0-c9be8b2c90f3
+            userCondition: null
+            value: null
+            warning: null
+            width: 25
+          -
+            attribute: podcastType
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: Type
+            mandatory: false
+            options:
+              -
+                label: Episodic
+                value: Episodic
+              -
+                label: Serial
+                value: Serial
+            orientation: null
+            providesThumbs: false
+            requirable: true
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\PodcastTypeField
+            uid: 01ee5e84-701b-40e4-943e-2ce5bce0ecca
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: medium
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: Medium
+            mandatory: false
+            options:
+              -
+                label: Podcast
+                value: podcast
+              -
+                label: Music
+                value: music
+              -
+                label: Video
+                value: video
+              -
+                label: Film
+                value: film
+              -
+                label: Audiobook
+                value: audiobook
+              -
+                label: Newsletter
+                value: newsletter
+              -
+                label: Blog
+                value: blog
+            orientation: null
+            providesThumbs: false
+            requirable: true
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\PodcastMediumField
+            uid: 1374e080-b6e1-456a-90d3-56b7b0ba87b1
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            attribute: podcastComplete
+            class: null
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: 'Podcast Complete'
+            mandatory: false
+            name: null
+            orientation: null
+            providesThumbs: false
+            requirable: false
+            required: false
+            tip: null
+            translatable: false
+            type: vnali\studio\fields\NativeLightswitchField
+            uid: 7a8797b8-cf2e-4fd7-92e4-3f7e68745e68
+            userCondition: null
+            value: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bdfe09bd-5881-4a2f-aa1e-96d55fb5ef7b # Categories
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6e2c29a1-a952-46aa-9ca1-26f6cd34ea21
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e04a8168-5ebd-4dcd-9a34-f09364144dc3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7482f214-925d-4db3-8407-910054af3909 # Person
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03733ab1-b03b-462b-aa6b-ea76c99dee54
+            userCondition: null
+            warning: null
+            width: 100
+        name: Persons
+        uid: ad2947b1-c2af-4863-99b4-32f8a6ac2176
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f594fe7e-a771-4ad3-8b5a-53a9e2e9cae6 # Podcast Live Items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dcb56d3f-32d2-4863-b8ef-f9363f0b4489
+            userCondition: null
+            warning: null
+            width: 100
+        name: Live
+        uid: fdcd8f26-00f7-4539-b91a-6c9abfe70a0e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0d933297-d421-46d4-9930-d83f38792528 # Value 4 Value
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 92fda826-416a-47e3-a652-a0a4125aece7
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Value 4 Value'
+        uid: 272cd8f5-7e85-468a-a443-1a6936f4a078
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0bfdc2e5-f5e1-415d-be09-aa57a594c022 # Location
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 38555e2c-815e-436d-8a54-170635fb5120
+            userCondition: null
+            warning: null
+            width: 100
+        name: Location
+        uid: 889cd4d5-831d-4eab-b7b0-69dd3368b88d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3a956e52-8d6f-4831-b1f9-91ce4e3947f8 # Podcast Trailer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35458b67-f8da-4cae-9f93-95708450130b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Trailer
+        uid: aec96edb-50db-42de-b524-1c7a439cd1ed
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 79024859-f352-4cc6-bd34-6e75051bbe0e # Podcast References
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31597f0d-ac23-460d-bfc2-6ea65c225911
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 057f7002-4b47-46ac-9471-c222c94583b2 # Funding
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6786647e-82a5-4c4f-86e4-95bcfe293a52
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 679d20c1-8eac-48d7-9fbb-96c944267bfc # License
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2898a922-be3c-4dce-851b-7d9eac7f50a2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f8e71450-2949-4d8e-95e6-7a3eba7b11c7 # Extra data
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9aa0775-6a6f-4bcd-b4c0-4efa0ad7339c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Extra
+        uid: 849de5f3-9bbd-45f0-b1c5-677e3fa51a66
+        userCondition: null
+podcastMapping: '{"podcastImage":{"type":"craft\\fields\\Assets","container":"","field":"55e058d5-ca42-454c-bbe2-319373a08c99"},"podcastDescription":{"type":"craft\\ckeditor\\Field","container":"","field":"83cc9f40-0c82-4e1c-a334-3c925112682f"},"podcastCategory":{"type":"craft\\fields\\Entries","container":"","field":"bdfe09bd-5881-4a2f-aa1e-96d55fb5ef7b"}}' # Images # Description # Categories
+podcastVersioning: false
+sitesSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    episodeEnabledByDefault: true
+    episodeTemplate: episodes/_view
+    episodeUriFormat: 'episodes/{slug}'
+    podcastEnabledByDefault: true
+    podcastTemplate: podcasts/_view
+    podcastUriFormat: 'podcasts/{slug}'

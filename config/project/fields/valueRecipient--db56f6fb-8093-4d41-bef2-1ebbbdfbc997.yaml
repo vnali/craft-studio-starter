@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: valueRecipient
+instructions: null
+name: 'Value Recipient'
+searchable: false
+settings:
+  createButtonLabel: 'New value recipient'
+  entryTypes:
+    - 10a8faa8-6998-49c8-8b37-db1d64cea268 # Recipient
+    - 4f37e438-2133-4df1-b58f-6df1741fd63f # Recipient (Time Split)
+    - f56c7cb6-6639-42ca-956d-b16e49091490 # Remote Item (Time Split)
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

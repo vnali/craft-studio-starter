@@ -1,0 +1,13 @@
+columnSuffix: wpbfaqik
+contentColumnType: string(255)
+handle: liveItemLink
+instructions: null
+name: 'Live Item Link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

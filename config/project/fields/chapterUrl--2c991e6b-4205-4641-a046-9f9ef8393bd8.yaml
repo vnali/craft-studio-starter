@@ -1,0 +1,12 @@
+columnSuffix: heucqbjd
+handle: chapterUrl
+instructions: null
+name: 'Chapter - Chapter - Url'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

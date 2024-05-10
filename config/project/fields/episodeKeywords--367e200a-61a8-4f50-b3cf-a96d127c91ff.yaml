@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: episodeKeywords
+instructions: null
+name: Keywords
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a keyword'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:115b1cba-6a02-40a3-b045-654945475467' # Keywords
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

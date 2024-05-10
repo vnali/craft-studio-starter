@@ -1,0 +1,22 @@
+columnSuffix: xutslygr
+contentColumnType: string
+handle: valueType
+instructions: null
+name: 'Value 4 Value type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Lightning
+        -
+          - value
+          - lightning
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

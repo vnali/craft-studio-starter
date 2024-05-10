@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: false
+entryTypes:
+  - 2dc96eee-e70b-4921-8a0b-6f97fee594e5 # Podcast Categories
+handle: podcastCategories
+maxAuthors: 1
+name: 'Podcast Categories'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: podcast-categories/_entry
+    uriFormat: 'podcast-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 9dafe702-604b-4948-9015-5da36174e5df
+type: structure

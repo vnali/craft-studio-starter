@@ -1,0 +1,110 @@
+color: null
+fieldLayouts:
+  fb4a3985-9bc0-4cc1-9cb3-92deebc2851e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d28a0889-e94d-4981-945f-102c8635a6dc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 18d815c0-a26f-4bc5-8ade-912ba95233a4 # Suggested Value
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45fa07f0-85a5-4039-9b28-5db027dc8e64
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3194195b-407b-4546-ac18-1ffffa2518ca # Value 4 Value type
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f6262f9c-04f7-4001-a53d-e96674f3f6e8
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 1e814dd0-2f58-452c-9025-b3295ae8ab4c # Method of Value 4 Value
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c50cd87-face-456d-8758-c82a5df392af
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: db56f6fb-8093-4d41-bef2-1ebbbdfbc997 # Value Recipient
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9af94d3-d86c-49f6-ac59-41224f5669da
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 32bf6222-aa05-4b8f-be08-5f61fd02a23e
+        userCondition: null
+handle: value4value
+hasTitleField: true
+icon: ''
+name: 'Value 4 Value'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

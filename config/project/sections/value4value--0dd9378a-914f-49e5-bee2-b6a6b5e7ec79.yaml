@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: false
+entryTypes:
+  - 68938263-0e4e-4a80-adcc-16e722227e0b # Value 4 Value
+handle: value4value
+maxAuthors: 1
+name: 'Value 4 Value'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: value-4-value/_entry
+    uriFormat: 'value-4-value/{slug}'
+type: channel

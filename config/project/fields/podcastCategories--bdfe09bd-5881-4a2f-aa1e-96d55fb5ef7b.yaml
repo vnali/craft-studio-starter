@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: podcastCategories
+instructions: null
+name: Categories
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a podcast category'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:b152052b-ebe4-4a93-8677-93ad547e485c' # Podcast Categories
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

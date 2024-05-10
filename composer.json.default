@@ -1,12 +1,12 @@
 {
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "require": {
-    "craftcms/cms": "^5.0.0",
-    "vlucas/phpdotenv": "^5.4.0"
+    "craftcms/cms": "^5.1.2",
+    "vlucas/phpdotenv": "^5.4.0",
+    "vnali/craft-studio": "^2.0.0-alpha.2",
+    "craftcms/ckeditor": "^4.0.4"
   },
   "require-dev": {
-    "craftcms/generator": "^2.0.0",
+    "craftcms/generator": "^2.0.1",
     "yiisoft/yii2-shell": "^2.0.3"
   },
   "autoload": {

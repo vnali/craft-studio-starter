@@ -1,0 +1,95 @@
+color: null
+fieldLayouts:
+  4e387cac-a616-4c09-9cfa-b6ba8b9e7ec9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 17db943d-91d6-4ed5-9596-1582a231f960
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42131e96-8e9a-45c7-aaf9-da164e9a0410 # Start Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59c502a3-3241-4264-88a4-0de4291af5e9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 05ba8848-0f41-4de5-a53f-1c843fdbf263 # Duration
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de3d1f13-ba31-4689-a270-b1165ad59472
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 33e66496-aebb-4d0e-9727-5925f354cea3 # Recipient
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9fc5da23-4254-41c6-b511-697d9a6fd243
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fe37f0c4-6ac6-4e73-971a-de7c24ad5a1e
+        userCondition: null
+handle: recipientTimeSplit
+hasTitleField: false
+icon: ''
+name: 'Recipient (Time Split)'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

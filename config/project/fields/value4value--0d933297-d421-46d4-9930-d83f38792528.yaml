@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: value4value
+instructions: null
+name: 'Value 4 Value'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: 'Add a value 4 value item'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:0dd9378a-914f-49e5-bee2-b6a6b5e7ec79' # Value 4 Value
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

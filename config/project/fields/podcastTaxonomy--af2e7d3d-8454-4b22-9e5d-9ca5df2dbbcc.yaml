@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: podcastTaxonomy
+instructions: null
+name: 'Person - Person - Podcast Taxonomy'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: 1
+  localizeRelations: false
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a podcast taxonomy'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:9144428c-cf18-431d-b6aa-dd0f25a2e2e0' # Podcast Taxonomies
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

@@ -1,0 +1,95 @@
+color: null
+fieldLayouts:
+  7c7480a0-296e-49f2-a2da-92ce49828d31:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: bf9b4199-7d68-47a3-ac7c-0849bf15374d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bb20251b-f8bd-489a-b8ed-67bac572cb78 # Registered Persons
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: 'Registered Persons'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77f1063f-b9ae-4509-a316-8758d04edffe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6c47b414-a868-4721-990c-b5b2d14780eb # Person - Person - Other Persons
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Other Persons'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6853e424-f061-4782-9bb3-a5f7fcff706d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc # Person - Person - Podcast Taxonomy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Podcast Taxonomy'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1744541c-0186-49c3-bd1d-6dc685345c79
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6264d596-9f6f-4df4-87e7-701d362a6ec7
+        userCondition: null
+handle: person
+hasTitleField: false
+icon: ''
+name: Person
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: remoteItem
+instructions: null
+name: 'Remote Item'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: 'Add a remote item'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:c0a47490-22dd-4c4b-b435-49aab2a77787' # Remote Items
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

@@ -1,0 +1,12 @@
+columnSuffix: axnedpxj
+handle: toc
+instructions: null
+name: 'Chapter - Chapter - toc'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: liveItem
+instructions: null
+name: 'Podcast Live Items'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a live item'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:0a4f8c97-65cd-45e5-ad4b-b530b1504fa6' # Live Items
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

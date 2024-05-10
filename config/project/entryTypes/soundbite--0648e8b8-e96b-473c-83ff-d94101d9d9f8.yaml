@@ -1,0 +1,155 @@
+color: null
+fieldLayouts:
+  09f97f49-fb80-414a-80ee-deead656faac:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 52fad30c-311c-473c-87fb-dd2acf881041
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5e327d1f-cce6-4c06-9b06-bc8cbbe944f5
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Title
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 935cf526-362d-469b-a0fe-aa6a79116757
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 05ba8848-0f41-4de5-a53f-1c843fdbf263 # Duration
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Duration
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d36b558b-6ebc-4e0f-9c21-b9a1c1ee82e7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 33e66496-aebb-4d0e-9727-5925f354cea3 # Recipient
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c61bcb10-82f1-4def-a7f3-e63f0bc444b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42131e96-8e9a-45c7-aaf9-da164e9a0410 # Start Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e57fb6d5-1eba-420d-90d2-d3b11df63f3a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af376680-6dab-4260-8d78-6a0cd4a714df # Remote Start Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c6a9965-d605-4dc3-923e-4b38a3a50510
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 748248e8-64ba-4280-8a35-dd23340e2605 # Remote Percentage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fa473441-ad87-4a3b-b9dd-c0c4b712822a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 45309bce-c074-4b82-a2ab-af27678c9a43 # Remote Item
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73201e04-bc1a-4ee8-baeb-90bf8d4674a5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8b490df7-6586-419e-8bd0-4975d7dc47d8
+        userCondition: null
+handle: soundbite
+hasTitleField: false
+icon: ''
+name: Soundbite
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

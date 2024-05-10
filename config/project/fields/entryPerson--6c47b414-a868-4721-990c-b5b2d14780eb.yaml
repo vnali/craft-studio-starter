@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: entryPerson
+instructions: null
+name: 'Person - Person - Other Persons'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a person'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:c935f29c-7efb-4f69-991b-b479f7bcdd45' # Persons
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

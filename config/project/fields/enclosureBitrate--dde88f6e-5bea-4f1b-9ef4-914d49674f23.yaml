@@ -1,0 +1,65 @@
+columnSuffix: kobzmjno
+handle: enclosureBitrate
+instructions: null
+name: 'Enclosure Bitrate'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Select one'
+        -
+          - value
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '32'
+        -
+          - value
+          - '32'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '64'
+        -
+          - value
+          - '64'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '128'
+        -
+          - value
+          - '128'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '320'
+        -
+          - value
+          - '320'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

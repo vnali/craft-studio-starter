@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - d0367a1b-5a66-4a1d-84a3-7268344c7e3a # Keywords
+handle: keywords
+maxAuthors: 1
+name: Keywords
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: keywords/_entry
+    uriFormat: 'keywords/{slug}'
+structure:
+  maxLevels: null
+  uid: fe01ee4c-a88a-4fb0-90a3-0c3bd66de6da
+type: structure

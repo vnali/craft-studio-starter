@@ -1,0 +1,125 @@
+color: null
+fieldLayouts:
+  2b566572-44ac-418b-a965-002553c8f91a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f0081a87-374d-4d12-9a3f-83f47f7e49a0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42131e96-8e9a-45c7-aaf9-da164e9a0410 # Start Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 658eaed5-0707-4bde-a95c-036661dce265
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 05ba8848-0f41-4de5-a53f-1c843fdbf263 # Duration
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d60275b0-6a53-49c1-9ff9-bcff37986423
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af376680-6dab-4260-8d78-6a0cd4a714df # Remote Start Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d31ec148-7ae8-4c56-9ffa-2ebf7fce3092
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 748248e8-64ba-4280-8a35-dd23340e2605 # Remote Percentage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 777a17bd-7bbf-42d9-85e1-3f05cf71d9f5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 45309bce-c074-4b82-a2ab-af27678c9a43 # Remote Item
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 08ed2c41-6e20-4f80-9fc1-12ad6abcda2e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 22d1cee6-3908-4856-9df4-30c7e878259c
+        userCondition: null
+handle: remoteItemTimeSplit
+hasTitleField: false
+icon: ''
+name: 'Remote Item (Time Split)'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,33 @@
+columnSuffix: xgoarhlq
+contentColumnType: string
+handle: medium
+instructions: null
+name: Medium
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Select One'
+        -
+          - value
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Music
+        -
+          - value
+          - music
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,13 @@
+columnSuffix: aofonzsp
+contentColumnType: string(255)
+handle: personHref
+instructions: null
+name: 'Person Link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

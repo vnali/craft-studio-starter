@@ -1,0 +1,43 @@
+columnSuffix: drshtpya
+handle: enclosureType
+instructions: null
+name: 'Enclosure Type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - audio/mpeg
+        -
+          - value
+          - audio/mpeg
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - audio/opus
+        -
+          - value
+          - audio/opus
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - audio/aac
+        -
+          - value
+          - audio/aac
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,22 @@
+columnSuffix: lplktphg
+contentColumnType: string
+handle: recipientType
+instructions: null
+name: 'Recipient Type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Node
+        -
+          - value
+          - node
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

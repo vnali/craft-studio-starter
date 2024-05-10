@@ -1,0 +1,125 @@
+color: null
+fieldLayouts:
+  4c964c15-fe76-4d4f-97dc-37395ad1b3d2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: be14c04d-d981-4f84-b1c4-c9ab93325811
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e10ad14a-df74-4754-a499-ddefbf048ef3 # Enclosure Title
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Title
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc943590-93e9-45ea-b6ba-9696d359d5e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 58ce6e02-4a1f-4afe-b611-c9c56a82fc26 # Enclosure Type
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Type
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f4b9950-ce6c-4f3c-917c-50f6f15855ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dde88f6e-5bea-4f1b-9ef4-914d49674f23 # Enclosure Bitrate
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Bitrate
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 95823c23-a9e4-446d-9a7d-245c46438d1d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 68604891-1c15-4388-8882-7fdb3030577f # Other Sources
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Sources
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54597375-2330-4eac-8204-96fbd5d11ae5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f19c16d-651f-4cbd-90c4-1c6949340bb1 # Enclosure Default
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Default
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a95d2ce0-333b-45f1-9a8b-cb79f86ba29a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1f3ea81b-731b-4c58-9ad5-965ee564acd7
+        userCondition: null
+handle: LiveAlternateEnclosure
+hasTitleField: false
+icon: ''
+name: 'Live Alternate Enclosure'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

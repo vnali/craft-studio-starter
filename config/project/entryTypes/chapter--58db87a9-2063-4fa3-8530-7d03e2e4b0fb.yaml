@@ -1,0 +1,200 @@
+color: null
+fieldLayouts:
+  ea0c0e52-990f-466c-a7d6-b20d9047e827:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6754bd94-95fa-4019-abcf-1f7d007dea6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7b0b0dea-ad1b-430c-8b34-26eb35a6bc3e
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Title
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2814198-23b9-4ace-b62c-9ce02d13b203
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42131e96-8e9a-45c7-aaf9-da164e9a0410 # Start Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Start Time'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0faca27-29af-4056-8afe-909df3030138
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85cbd451-dfa3-4cee-881b-e5a83fa2cb10 # End Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'End Time'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7e7c0b9e-f6a4-4b78-a811-9cfc56ab6da2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2c991e6b-4205-4641-a046-9f9ef8393bd8
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Url
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d22cc5bd-3327-4c26-8487-3b88090b998b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0bfdc2e5-f5e1-415d-be09-aa57a594c022 # Location
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21d8f1a9-a4d8-44a1-b2ae-b03848eb7db7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c81df543-b448-4c37-9dab-8f99b2e46845
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: toc
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a47b716-095a-433a-a8c7-903c684af209
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 33e66496-aebb-4d0e-9727-5925f354cea3 # Recipient
+            handle: recipient
+            includeInCards: false
+            instructions: null
+            label: Recipient
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b7a8501e-2380-4ef1-88e5-6870ef3f8500
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 748248e8-64ba-4280-8a35-dd23340e2605 # Remote Percentage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Remote Percentage'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ebfd9df-e160-463f-9c9f-fc1b3e54624a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af376680-6dab-4260-8d78-6a0cd4a714df # Remote Start Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Remote Start Time'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b4a2f70-c6f7-41d1-96b9-e08575fe86c8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 45309bce-c074-4b82-a2ab-af27678c9a43 # Remote Item
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Remote Item'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7f015d39-b269-4042-af3f-9fbf00ea72bd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0c4a3b7d-d219-4d79-a995-9932daffffdd
+        userCondition: null
+handle: chapter
+hasTitleField: false
+icon: ''
+name: Chapter
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

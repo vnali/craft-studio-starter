@@ -1,0 +1,49 @@
+columnSuffix: txtqctab
+contentColumnType: text
+handle: txt
+instructions: null
+name: 'Extra data'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Purpose
+            -
+              - handle
+              - purpose
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Value
+            -
+              - handle
+              - txt
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults: null
+  maxRows: 1
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

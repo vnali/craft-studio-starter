@@ -1,0 +1,18 @@
+columnSuffix: oqvpsfsm
+contentColumnType:
+  - 'date:datetime'
+  - 'tz:string'
+handle: pubdate
+instructions: null
+name: 'Publish Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: true
+  showTimeZone: true
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

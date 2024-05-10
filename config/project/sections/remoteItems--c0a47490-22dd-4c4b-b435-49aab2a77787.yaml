@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 2c27ff37-4734-4cfb-aeae-e572eec3992a # Default
+handle: remoteItems
+maxAuthors: 1
+name: 'Remote Items'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  a250298a-1871-4e91-96cf-3071507954ad: # Default
+    enabledByDefault: true
+    hasUrls: true
+    template: remote-items/_entry
+    uriFormat: 'remote-items/{slug}'
+type: channel

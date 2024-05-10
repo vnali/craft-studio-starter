@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: person
+instructions: null
+name: Person
+searchable: false
+settings:
+  createButtonLabel: 'New person'
+  entryTypes:
+    - 50ad56e1-09a0-4cd7-b149-e58211c8167a # Person
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

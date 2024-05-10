@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: recipient
+instructions: null
+name: Recipient
+searchable: false
+settings:
+  createButtonLabel: 'New recipient'
+  entryTypes:
+    - 10a8faa8-6998-49c8-8b37-db1d64cea268 # Recipient
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

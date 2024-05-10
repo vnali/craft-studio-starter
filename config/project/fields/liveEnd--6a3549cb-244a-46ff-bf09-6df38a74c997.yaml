@@ -1,0 +1,16 @@
+columnSuffix: klerluwd
+contentColumnType: datetime
+handle: liveEnd
+instructions: null
+name: 'Live End Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: true
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

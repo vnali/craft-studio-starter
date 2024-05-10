@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: alternateEnclosure
+instructions: null
+name: 'Alternate Enclosure'
+searchable: false
+settings:
+  createButtonLabel: 'New alternate enclosure'
+  entryTypes:
+    - 4a4979e1-56fb-42b2-b318-c674716b6ac8 # Alternate Enclosure
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

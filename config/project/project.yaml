@@ -1,4 +1,4 @@
-dateModified: 1715360431
+dateModified: 1715446172
 email:
   fromEmail: craft-studio-starter@example.test
   fromName: 'Craft Studio Starter'
@@ -139,10 +139,6 @@ plugins:
     enabled: true
     licenseKey: 8DFMTRJ3FAL6M29FRY61V101
     schemaVersion: 2.0.0-alpha.1
-  super-table:
-    edition: standard
-    enabled: true
-    schemaVersion: 4.0.0
 system:
   edition: solo
   live: true

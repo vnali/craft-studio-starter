@@ -1,4 +1,4 @@
-dateModified: 1715446172
+dateModified: 1715447420
 email:
   fromEmail: craft-studio-starter@example.test
   fromName: 'Craft Studio Starter'
@@ -39,6 +39,7 @@ meta:
     0f7b437a-417a-40f1-a8ec-fcbd88293424: 'Live Item Link' # Live Item Link
     1e814dd0-2f58-452c-9025-b3295ae8ab4c: 'Method of Value 4 Value' # Method of Value 4 Value
     2c27ff37-4734-4cfb-aeae-e572eec3992a: Default # Default
+    2c991e6b-4205-4641-a046-9f9ef8393bd8: 'Chapter URL' # Chapter URL
     2dc96eee-e70b-4921-8a0b-6f97fee594e5: 'Podcast Categories' # Podcast Categories
     3a956e52-8d6f-4831-b1f9-91ce4e3947f8: 'Podcast Trailer' # Podcast Trailer
     3f19c16d-651f-4cbd-90c4-1c6949340bb1: 'Enclosure Default' # Enclosure Default
@@ -50,10 +51,12 @@ meta:
     05ba8848-0f41-4de5-a53f-1c843fdbf263: Duration # Duration
     5c58d992-cd1a-46fb-9362-a628c98ec3fa: 'Transcript Text' # Transcript Text
     5dde8c25-54f5-4210-b8be-e605ddcd93db: 'Asset Sources' # Asset Sources
+    5e327d1f-cce6-4c06-9b06-bc8cbbe944f5: 'Soundbite Title' # Soundbite Title
     5f8321af-d2ae-4aeb-933b-82d201e9b4af: 'Item Guid' # Item Guid
     6a3549cb-244a-46ff-bf09-6df38a74c997: 'Live End Date' # Live End Date
-    6c47b414-a868-4721-990c-b5b2d14780eb: 'Person - Person - Other Persons' # Person - Person - Other Persons
+    6c47b414-a868-4721-990c-b5b2d14780eb: 'Other Persons' # Other Persons
     7a89add2-03dd-43dd-8566-bfab689cc2cf: 'Live Alternate Enclosure' # Live Alternate Enclosure
+    7b0b0dea-ad1b-430c-8b34-26eb35a6bc3e: 'Chapter Title' # Chapter Title
     8f965504-e3e9-4838-b185-ac7db7b4afd1: Season # Season
     9b4369e5-a408-4411-aa01-c842a630b9c5: 'Feed Guid' # Feed Guid
     10a8faa8-6998-49c8-8b37-db1d64cea268: Recipient # Recipient
@@ -107,7 +110,7 @@ meta:
     a250298a-1871-4e91-96cf-3071507954ad: Default # Default
     ad4bb061-92f9-4a12-a5bb-7d8f84d17e55: 'Content Encoded' # Content Encoded
     ae1510c0-c27e-424f-baf0-2ddcb8028a58: 'Alternate Enclosure' # Alternate Enclosure
-    af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc: 'Person - Person - Podcast Taxonomy' # Person - Person - Podcast Taxonomy
+    af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc: 'Podcast Taxonomy' # Podcast Taxonomy
     af376680-6dab-4260-8d78-6a0cd4a714df: 'Remote Start Time' # Remote Start Time
     b5d5877a-e3d6-4fd6-9182-eff3f0b24270: Persons # Persons
     b6b40ee0-f168-4434-8d4e-fa00eb39787d: Medium # Medium
@@ -117,6 +120,7 @@ meta:
     c0a47490-22dd-4c4b-b435-49aab2a77787: 'Remote Items' # Remote Items
     c5a173d0-a09a-4a3d-adee-04666b45a6ab: Soundbite # Soundbite
     c7d41bbe-182b-476e-84ef-dde188c89c09: 'Feed URL' # Feed URL
+    c81df543-b448-4c37-9dab-8f99b2e46845: 'Chapter TOC' # Chapter TOC
     c935f29c-7efb-4f69-991b-b479f7bcdd45: Persons # Persons
     ca75481f-e1fc-46c8-8184-72633d1fd5ea: 'Live Status' # Live Status
     d0367a1b-5a66-4a1d-84a3-7268344c7e3a: Keywords # Keywords

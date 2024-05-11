@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: podcastTaxonomy
 instructions: null
-name: 'Person - Person - Podcast Taxonomy'
+name: 'Podcast Taxonomy'
 searchable: false
 settings:
   allowSelfRelations: false

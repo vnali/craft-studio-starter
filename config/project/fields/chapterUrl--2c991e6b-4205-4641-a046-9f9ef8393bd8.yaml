@@ -1,7 +1,7 @@
 columnSuffix: heucqbjd
 handle: chapterUrl
 instructions: null
-name: 'Chapter - Chapter - Url'
+name: 'Chapter URL'
 searchable: false
 settings:
   maxLength: 255

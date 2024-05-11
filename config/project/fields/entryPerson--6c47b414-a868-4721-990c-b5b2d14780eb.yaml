@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: entryPerson
 instructions: null
-name: 'Person - Person - Other Persons'
+name: 'Other Persons'
 searchable: false
 settings:
   allowSelfRelations: false

@@ -51,7 +51,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 6c47b414-a868-4721-990c-b5b2d14780eb # Person - Person - Other Persons
+            fieldUid: 6c47b414-a868-4721-990c-b5b2d14780eb # Other Persons
             handle: null
             includeInCards: false
             instructions: null
@@ -66,7 +66,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc # Person - Person - Podcast Taxonomy
+            fieldUid: af2e7d3d-8454-4b22-9e5d-9ca5df2dbbcc # Podcast Taxonomy
             handle: null
             includeInCards: false
             instructions: null

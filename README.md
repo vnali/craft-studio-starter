@@ -1,54 +1,41 @@
-<a href="https://craftcms.com/" rel="noopener" target="_blank"><img width="247" height="60" src="https://craftcms.com/craftcms.svg" alt="Craft CMS"></a>
+# Starter project for Studio plugin for Craft CMS 5
 
-<br>
+This is a starter project for the [Studio plugin](https://github.com/vnali/craft-studio) for [Craft CMS](https://craftcms.com).
 
-[Craft](https://craftcms.com/) is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond.
+The Studio plugin helps you to manage podcasts, episodes and more!
 
-In technical terms, it’s a self-hosted PHP application backed by a MySQL or Postgres database. Read more in the [official documentation](https://craftcms.com/docs).
+After setup is finished, you have a starter project with Craft CMS and studio plugin and all required fields to test how Studio plugin works.
 
-__Psst!__ Looking for the Craft source code? Need to file a bug report or feature request? Check out [`craftcms/cms`](https://github.com/craftcms/cms).
+## Starter project setup
 
----
+For setup, you can run something like
 
-:postal_horn: **If you just heard about Craft:** Take a feature tour on [our website](https://craftcms.com/features)—then spin up a [demo project](https://craftcms.com/demo) to try it out for yourself.
+```
+Craft 5:
+cd /var/www/html
+php composer.phar create-project vnali/craft-studio-starter:5.x-dev your-project-folder
+```
 
-:construction_worker_woman: **If you are eager to start building:** You’re in exactly the right place!
+In this case DocumentRoot of your project is `/var/www/html/your-project-folder/web`.
 
-## Getting Started
+Now Craft CMS and Studio plugin is installed and all fields are created and you can create a podcast and an episode and fill the fields and check the podcast RSS page for the output.
 
-This repository is a bare-bones [Composer](https://getcomposer.org/) “project”, intended for use with the `composer create-project` command. It contains only the folders and files absolutely required to run Craft.
+Make sure you go to `admin/settings/email` and set System Email Address and Sender Name again.
 
-> [!TIP]  
-> Our [tutorial](https://craftcms.com/docs/getting-started-tutorial/) covers this setup process in greater depth. If you get stuck, give it a once-over; if things still aren’t clicking, help is never far away in [our community](https://craftcms.com/community) or via [official support](https://craftcms.com/support-services).
->
-> You can also find these instructions (and some other helpful tips) in [the documentation](https://craftcms.com/docs/5.x/install.html).
+## The Studio plugin Documentation
+Please visit [Documentation page](https://github.com/vnali/studio-plugin-docs/blob/main/README.md).
 
-The best way to spin up your first project is with [DDEV](https://ddev.com/), a cross-platform, Docker-based PHP development environment.
+## The Studio plugin license
+This is a commercial plugin available on [Craft CMS plugin store](https://plugins.craftcms.com/studio?craft5).
 
-1. [Install DDEV](https://ddev.readthedocs.io/en/stable/users/install/ddev-installation/)
-2. Choose a folder for your project and move into it:
-    ```bash
-    cd /path/to/web/projects
-    mkdir my-project
-    cd my-project
-    ```
-3. Configure a new DDEV [project](https://ddev.readthedocs.io/en/latest/users/quickstart/#craft-cms), and install Craft:
-    ```bash
-    ddev config --project-type=craftcms --docroot=web --create-docroot --php-version=8.2
+## The Studio plugin Installation
+The plugin can be installed via [Plugin Store](https://plugins.craftcms.com/studio?craft5) in the Craft Control Panel.
 
-    # Use this package as a starting point:
-    ddev composer create -y --no-scripts craftcms/craft=^5.0.0
+## Craft CMS Starter project
+More about Craft CMS [Starter project](https://craftcms.com/knowledge-base/using-the-starter-project).
 
-    # Run the Craft CMS installer (use all defaults):
-    ddev craft install
-    ```
-4. Run `ddev launch` to open the project in your browser.
+## Screenshots
 
-Craft’s [control panel](https://craftcms.com/docs/5.x/system/control-panel.html) is located at `/admin`. The rest is up to you! Pick up where we left off in [the tutorial](https://craftcms.com/docs/getting-started-tutorial/install/control-panel.html), or dive right in on modeling your own content:
-- :card_file_box: [Elements](https://craftcms.com/docs/5.x/system/elements.html): Learn about Craft’s core content types, and how to customize them.
-- :triangular_ruler: [Fields](https://craftcms.com/docs/5.x/system/fields.html): Create precisely the data structure and authoring experience you need.
-- :pencil2: [Templating](https://craftcms.com/docs/5.x/development/twig.html): Start using your data in a totally custom front-end.
+![craft-studio-starter-podcast](https://github.com/vnali/craft-studio-starter/assets/55586085/55b84e95-bdf7-4f5c-b43e-aa4623dfe310)
 
-## Resources
-
-Craft comes with a ton of official and community [resources](https://github.com/craftcms/cms#resources). 
+![craft-studio-starter-episode](https://github.com/vnali/craft-studio-starter/assets/55586085/f3c1bf30-2f46-4e9a-b8e4-db368f3f505c)
